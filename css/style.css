@@ -1,12 +1,12 @@
 body {
     font-family: "VT323", monospace;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 25px;
     font-style: normal;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-   text-align: center;
+    text-align: center;
 }
 
   
@@ -27,30 +27,40 @@ header {
     border-width: 3%;
     border-radius: 8px;
 }
+
+video{
+    margin-top: -30px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 300px;
+
+}
+
+
 nav ul {
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
-    font-size: 25px;
+    margin: 10px;
+    font-size: 30px;
 }
 
 nav ul li a {
     color: rgb(255, 221, 0);
     text-decoration: none;
-    padding: 10px 20px; /* Ajusta el padding según desees */
-    border: 2px solid transparent; /* Establecemos un borde inicialmente transparente */
-    display: inline-block; /* Aseguramos que los enlaces se comporten como bloques */
-    transition: background-color 0.5s ease, color 0.5s ease; /* Hacemos la transición del color de fondo y del texto más lenta */
+    padding: 20px; 
+    border: 2px solid transparent; 
+    display: inline-block; 
+    transition: background-color 0.5s ease, color 0.5s ease; 
 }
 
 nav ul li a:hover {
-    background-color: black; /* Cambiamos el color de fondo a negro cuando el cursor se pasa sobre el enlace */
-    border-color: rgb(255, 221, 0); /* Mantenemos el color del borde amarillo */
-    color: rgb(255, 221, 0); /* Cambiamos el color del texto a amarillo cuando el cursor se pasa sobre el enlace */
+    background-color: black; 
+    border-color: rgb(255, 221, 0); 
+    color: rgb(255, 221, 0); 
 }
 
 
@@ -79,8 +89,7 @@ nav ul li a:hover {
 }
 
 .portada {
-    width: 50%; /* Ajustar el tamaño de la imagen */
-    
+    width: 50%; 
     display: block;
     margin: 0 auto 20px;
 }
@@ -92,7 +101,7 @@ footer {
     margin-top: 20px;
 }
 .anuel1 {
-    width: 50%; /* Ajustar el tamaño de la imagen */
+    width: 50%; 
     display: block;
     margin: 0 auto 20px;
 }
