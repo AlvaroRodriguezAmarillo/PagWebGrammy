@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-   
+   text-align: center;
 }
 
   
@@ -16,14 +16,21 @@ body {
     padding: 20px;
 }
 header {
-    background-image: url(../img/inicioImagen.png);
-    color: white;
-    padding: 10px 0;
+    background-image: url(../img/ImagenFondoPortada.png);
+    color: rgb(0, 0, 0);
+    padding: 15px ;
+    height: 220px;
     text-align: center;
+    font-weight: bold;
+    border: solid;
+    border-color: black;
+    border-width: 3%;
+    border-radius: 8px;
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
+    
 }
 nav ul li {
     display: inline;
@@ -34,16 +41,22 @@ nav ul li a :hover {
     color: white;
     text-decoration: none;
 }
+
+nav a {
+    color: rgb(255, 221, 0);
+}
 .section {
     border: solid;
     border-color: black;
     border-width: 3%;
-    background-color: #fff;
-    background-image: url(../img/inicioImagen.png);
-    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #4ab9cd, #85d7cf, #4ab9cd);
+   
+    ;
+   
     margin: 20px 0;
     padding: 20px;
-    border-radius: 8px;
+    
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .section h2{
@@ -54,6 +67,7 @@ nav ul li a :hover {
     justify-content: center;
     display: flex;
 }
+
 .portada {
     width: 50%; /* Ajustar el tamaño de la imagen */
     
