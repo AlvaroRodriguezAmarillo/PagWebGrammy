@@ -94,8 +94,8 @@ nav ul li a:hover {
     margin: 0 auto 20px;
 }
 footer {
-    background-color: #009688;
-    color: white;
+    background-image: linear-gradient(to right, #4ab9cd, #85d7cf, #4ab9cd);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
