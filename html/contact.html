@@ -32,7 +32,21 @@
             <h2>Contacto y Soporte</h2>
             <p>Para más información sobre "En busca del Grammy", o si necesitas asistencia, por favor visita nuestro sitio web oficial o contáctanos a través de nuestras redes sociales. <br>
                 Nuestro equipo de soporte está dedicado a proporcionar una experiencia excepcional para todos los jugadores y está disponible para responder a cualquier pregunta o comentario que puedas tener.</p>
-        
+                <form action="/submit_form.php" method="post">
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" required>
+                
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required>
+                
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+                
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" placeholder="Ingrese su DNI" required>
+                
+                    <input type="submit" value="Enviar">
+                </form>
         </section>
 
         <footer>
