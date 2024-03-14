@@ -129,6 +129,16 @@ nav ul li a:hover {
     list-style-type: none; /* Oculta los puntos de la lista */
 }
 
+#Personajes ul{
+    text-align: center; 
+    list-style-position: inside; 
+}
+
+#BandaSonora{
+    text-align: center; 
+    list-style-position: inside; 
+}
+
 input[type="submit"]:hover {
     background-color: #45a049;
 }
@@ -152,10 +162,11 @@ form {
     margin: 0 auto;
 }
 
-.anuel1 {
-    width: 50%; 
+.FotosJuego {
+    
+    width: 20%; 
     display: block;
-    margin: 0 auto 20px;
+    margin: 20px auto;
 }
 
 /* Estilos para dispositivos móviles */
