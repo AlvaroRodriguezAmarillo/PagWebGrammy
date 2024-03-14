@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: "VT323", monospace;
     font-weight: 800;
@@ -10,7 +9,7 @@ body {
     text-align: center;
 }
 
-.container {
+.contenedor {
     padding: 20px;
 }
 
@@ -103,10 +102,10 @@ nav ul li a:hover {
 }
 
 #button button:hover {
-    background-color: black; /* Cambio de fondo al pasar el cursor encima */
+    background-color: black; 
     border-color: rgb(255, 221, 0);
     color: rgb(255, 221, 0);
-    animation: rotate 2s infinite alternate; /* Mantener la animación al pasar el ratón sobre el botón */
+    animation: rotate 2s infinite alternate; 
 }
 
 .section {
@@ -126,7 +125,7 @@ nav ul li a:hover {
 }
 
 #CONTROLES ul {
-    list-style-type: none; /* Oculta los puntos de la lista */
+    list-style-type: none; 
 }
 
 #Personajes ul{
@@ -138,6 +137,24 @@ nav ul li a:hover {
     text-align: center; 
     list-style-position: inside; 
 }
+
+.FotoInicio {
+    width: 40%; 
+    display: block;
+    margin: 20px auto;
+    border: solid;
+    border-color: black;
+    border-width: 3%;
+    border-radius: 8px;
+
+}
+
+.FotosJuego {
+    width: 20%; 
+    display: block;
+    margin: 20px auto;
+}
+
 
 .Desarrolladores {
     width: 40%; 
@@ -151,18 +168,22 @@ nav ul li a:hover {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: rgb(255, 221, 0);
+    color: black;
+    font-weight: bold;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: black;
+    font-family: "VT323", monospace;
+    font-size: 20px;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-input[type="text"], input[type="number"], input[type="email"] {
+input[type="text"], input[type="email"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -173,12 +194,7 @@ form {
     margin: 0 auto;
 }
 
-.FotosJuego {
-    
-    width: 20%; 
-    display: block;
-    margin: 20px auto;
-}
+
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
@@ -195,7 +211,7 @@ form {
 
 /* Estilos para tabletas y dispositivos más grandes */
 @media only screen and (min-width: 601px) {
-    .container {
+    .contenedor {
         max-width: 1200px;
         margin: auto;
     }

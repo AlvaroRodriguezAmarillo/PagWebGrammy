@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="contenedor">
         <header>
             <h1>EN BUSCA DEL GRAMMY</h1>
             <nav>
@@ -29,24 +29,28 @@
 
         <section id="Contacto" class="section">
 
-            <h2>Contacto y Soporte</h2>
-            <p>Para más información sobre "En busca del Grammy", o si necesitas asistencia, por favor visita nuestro sitio web oficial o contáctanos a través de nuestras redes sociales. <br>
-                Nuestro equipo de soporte está dedicado a proporcionar una experiencia excepcional para todos los jugadores y está disponible para responder a cualquier pregunta o comentario que puedas tener.</p>
+            <h2>CONTACTO Y SOPORTE</h2>
+
+            <p>
+                Para más información sobre "En busca del Grammy", o en caso de asistencia, no dudes en contactar con nosotros rellenando el siguiente formulario.
+                Nuestro equipo de soporte se encargará de ayudar a todos los jugadores en cualquier momento y  responder a cualquier pregunta o comentario que puedas tener.
+            </p>
+
                 <form action="/submit_form.php" method="post">
-                    <label for="telefono">Número de Teléfono:</label>
-                    <input type="text" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" required>
-                
-                    <label for="edad">Edad:</label>
-                    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required>
-                
+
+                    <label for="telefono">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+        
                     <label for="correo">Correo Electrónico:</label>
                     <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
                 
-                    <label for="dni">DNI:</label>
-                    <input type="text" id="dni" name="dni" placeholder="Ingrese su DNI" required>
+                    <label for="dni">Comentario:</label>
+                    <input type="text" id="comentario" name="comentario" placeholder="Ingrese un comentario" required >
                 
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="ENVIAR">
+
                 </form>
+
         </section>
 
         <footer>
