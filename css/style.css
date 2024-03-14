@@ -139,6 +139,17 @@ nav ul li a:hover {
     list-style-position: inside; 
 }
 
+.Desarrolladores {
+    width: 40%; 
+    display: block;
+    margin: 20px auto;
+    border: solid;
+    border-color: black;
+    border-width: 3%;
+    border-radius: 8px;
+    
+}
+
 input[type="submit"]:hover {
     background-color: #45a049;
 }
