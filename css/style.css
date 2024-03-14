@@ -82,6 +82,33 @@ nav ul li a:hover {
     color: rgb(255, 221, 0);
 }
 
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+#button button {
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    background-color: #18555e; 
+    border-color: rgb(255, 221, 0);
+    color: rgb(255, 221, 0);
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+    animation: rotate 2s infinite alternate; 
+}
+
+#button button:hover {
+    background-color: black; /* Cambio de fondo al pasar el cursor encima */
+    border-color: rgb(255, 221, 0);
+    color: rgb(255, 221, 0);
+    animation: rotate 2s infinite alternate; /* Mantener la animación al pasar el ratón sobre el botón */
+}
+
 .section {
     border: solid;
     border-color: black;
@@ -93,9 +120,19 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#PasosDescarga ol {
+    text-align: center; 
+    list-style-position: inside; 
+}
+
+#CONTROLES ul {
+    list-style-type: none; /* Oculta los puntos de la lista */
+}
+
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
